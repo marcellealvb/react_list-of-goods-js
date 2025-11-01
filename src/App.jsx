@@ -46,7 +46,6 @@ export const App = () => {
 
   const handleSort = field => {
     setSortField(field);
-    setIsReversed(false);
   };
 
   const handleReverse = () => {
